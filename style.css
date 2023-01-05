@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    align-items: center;
+    background-color: #d6d6d6;
+    font-size: larger;
+    padding-right: 10px;
+    border-radius: 6px;
+    margin-bottom: 2px;
+}
+
+.sprite {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    margin-right: 6px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+html {
+    image-rendering: pixelated;
+}
